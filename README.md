@@ -15,7 +15,7 @@ wget -qO- https://raw.githubusercontent.com/ConverPRO/routeflow-releases/main/in
 Конкретная версия:
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/ConverPRO/routeflow-releases/main/install.sh | ROUTEFLOW_TAG=v1.0.0-rc5 sh
+wget -qO- https://raw.githubusercontent.com/ConverPRO/routeflow-releases/main/install.sh | ROUTEFLOW_TAG=v1.0.0-rc6 sh
 ```
 
 `ROUTEFLOW_CHANNEL=stable` ставит только стабильные релизы, `rc` — самый свежий, включая релиз-кандидаты. По умолчанию (`auto`) ставится стабильный релиз, а если стабильных ещё нет — самый свежий.
