@@ -50,11 +50,11 @@ What happens:
 
 **Networking and DNS are not changed and RouteFlow stays off.** Open **LuCI → RouteFlow** and complete the Setup Wizard (5 steps; nothing changes on the router before the last one). Keep an SSH session open during the first turn-on.
 
-Options (before `sh`, e.g. `… | ROUTEFLOW_TAG=v1.0.0-rc9 sh`):
+Options (before `sh`, e.g. `… | ROUTEFLOW_TAG=v1.0.0-rc10 sh`):
 
 | Variable | Meaning |
 |---|---|
-| `ROUTEFLOW_TAG` | a specific release, e.g. `v1.0.0-rc9` |
+| `ROUTEFLOW_TAG` | a specific release, e.g. `v1.0.0-rc10` |
 | `ROUTEFLOW_CHANNEL` | `stable` or `rc` (release candidates); default: the latest stable, or the newest if there is none |
 | `ROUTEFLOW_SINGBOX=full` | full sing-box instead of `sing-box-tiny` |
 | `ROUTEFLOW_PODKOP` | `keep` (default), `remove` or `cancel` when Podkop is found |

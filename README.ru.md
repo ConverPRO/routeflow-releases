@@ -50,11 +50,11 @@ wget -qO- https://raw.githubusercontent.com/ConverPRO/routeflow-releases/main/in
 
 **Сеть и DNS не меняются, RouteFlow остаётся выключенным.** Откройте **LuCI → RouteFlow** и пройдите мастер настройки (5 шагов; до последнего на роутере ничего не меняется). Первое включение делайте с открытой SSH-сессией.
 
-Параметры (перед `sh`, например `… | ROUTEFLOW_TAG=v1.0.0-rc9 sh`):
+Параметры (перед `sh`, например `… | ROUTEFLOW_TAG=v1.0.0-rc10 sh`):
 
 | Переменная | Что делает |
 |---|---|
-| `ROUTEFLOW_TAG` | конкретный релиз, например `v1.0.0-rc9` |
+| `ROUTEFLOW_TAG` | конкретный релиз, например `v1.0.0-rc10` |
 | `ROUTEFLOW_CHANNEL` | `stable` или `rc` (релиз-кандидаты); по умолчанию последний стабильный, а если его нет — самый свежий |
 | `ROUTEFLOW_SINGBOX=full` | полная сборка sing-box вместо `sing-box-tiny` |
 | `ROUTEFLOW_PODKOP` | `keep` (по умолчанию), `remove` или `cancel`, если найден Podkop |
